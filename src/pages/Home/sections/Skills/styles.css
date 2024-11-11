@@ -1,0 +1,54 @@
+.portfolio-section-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dsc-color-bg-secondary);
+    padding: 20px;
+    height: 500px;
+}
+
+.portfolio-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.portfolio-skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+    width: 260px;
+    background-color: var(--dsc-color-bg-primary);
+    height: 450px;
+}
+
+.portfolio-skills-container p {
+    color: var(--dsc-color-font-secondary);
+    font-size: 14px;
+}
+
+.portfolio-skills-container h4 {
+    color: var(--dsc-color-font-primary);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.portfolio-skills-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 135px;
+}
+
+.portfolio-skills-icon p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+}
