@@ -17,7 +17,9 @@ export function NavBar() {
                 <Link to="skills" smooth={true} duration={500}>
                     <p>Skills</p>
                 </Link>
-                <p>Sobre</p>
+                <Link to="about" smooth={true} duration={500}>
+                    <p>Sobre</p>
+                </Link>
                 <p>Projetos</p>
             </div>
         </div>
