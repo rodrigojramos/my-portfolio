@@ -48,7 +48,7 @@
     gap: 20px;
 }
 
-..portfolio-hero-icons img {
+.portfolio-hero-icons img {
     cursor: pointer;
 }
 

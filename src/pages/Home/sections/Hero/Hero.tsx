@@ -1,9 +1,9 @@
 import './styles.css';
-import { Download } from "lucide-react"
-import IconLinkedIn from "../../../../assets/svg/IconLinkedIn.svg"
+import { Download } from "lucide-react";
+import IconLinkedIn from "../../../../assets/svg/IconLinkedIn.svg";
 import IconGitHubColor from "../../../../assets/svg/IconGitHubColor.svg";
-import IconWhatsApp from "../../../../assets/svg/IconWhatsApp.svg"
-import IconLine from "../../../../assets/svg/IconLine.svg"
+import IconWhatsApp from "../../../../assets/svg/IconWhatsApp.svg";
+import IconLine from "../../../../assets/svg/IconLine.svg";
 
 export function Hero() {
 

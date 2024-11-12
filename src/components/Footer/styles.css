@@ -1,0 +1,34 @@
+.portfolio-section-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    color: var(--dsc-color-font-primary);
+}
+
+.portfolio-footer-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 16px;
+}
+
+.portfolio-footer-first-name {
+    color: var(--dsc-color-font-primary);
+}
+
+.portfolio-footer-last-name {
+    color: var(--dsc-details-primary);
+}
+
+.portfolio-footer-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.portfolio-footer-icons img {
+    cursor: pointer;
+}
