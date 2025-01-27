@@ -11,6 +11,7 @@ import IconCSS from "../../../../assets/svg/IconCSS.svg";
 import IconGitHubColor from "../../../../assets/svg/IconGitHubColor.svg";
 import IconMySQL from "../../../../assets/svg/IconMySql.svg";
 import IconJUnit from "../../../../assets/svg/IconJUnit.svg";
+import IconMongo from "../../../../assets/svg/IconMongo.svg";
 
 export function Projects() {
     return(
@@ -50,6 +51,35 @@ export function Projects() {
                                     <button>
                                         <img src={IconGitHubColor} alt="GitHub" />
                                         Repositório Front-end
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="portfolio-projects-container">
+                            <h4>Plataforma de sorteios</h4>
+                            <img src={IconBigLine2} />
+                            <p>Plataforma de sorteios que permite usuários criar e gerenciar sorteios. O projeto é uma aplicação fullstack que permite aos usuários criar sorteios personalizados, compartilhar links para participação, acompanhar os resultados e também área específica para administradores.</p>
+                            <img src={IconBigLine2} />
+                            <span>Back-end:</span>
+                            <div className="portfolio-projects-icons-back">
+                                <img src={IconJava} />
+                                <img src={IconSpring} />
+                                <img src={IconMongo} />
+                                <img src={IconDocker} />
+                            </div>
+                            <span>Front-end:</span>
+                            <div className="portfolio-projects-icons-front">
+                                <img src={IconHTML} />
+                                <img src={IconCSS} />
+                                <img src={IconTypeScript} />
+                                <img src={IconReact} />
+                            </div>
+                            <img src={IconBigLine2} />
+                            <div className="portfolio-projects-btn">
+                                <a href="https://github.com/rodrigojramos/prize-draw" target="_blank" rel="noopener noreferrer">
+                                    <button>
+                                        <img src={IconGitHubColor} alt="GitHub" />
+                                        Repositório Fullstack
                                     </button>
                                 </a>
                             </div>
