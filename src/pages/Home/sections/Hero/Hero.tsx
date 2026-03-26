@@ -8,11 +8,14 @@ import IconLine from "../../../../assets/svg/IconLine.svg";
 export function Hero() {
 
     function handleClickBtnDownload() {
-        const link = document.createElement("a");
-        link.href = "/curriculo-2026.pdf";
-        link.download = "Currículo Rodrigo Ramos.pdf";
-        link.click();
-    }
+    const link = document.createElement("a");
+    link.href = "/my-portfolio/curriculo-2026.pdf";
+    link.setAttribute("download", "curriculo-rodrigo-ramos.pdf");
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
 
     return(
         <>
