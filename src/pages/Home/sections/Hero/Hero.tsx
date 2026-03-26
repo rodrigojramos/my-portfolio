@@ -8,14 +8,8 @@ import IconLine from "../../../../assets/svg/IconLine.svg";
 export function Hero() {
 
     function handleClickBtnDownload() {
-    const link = document.createElement("a");
-    link.href = "/my-portfolio/curriculo-2026.zip";
-    link.setAttribute("download", "curriculo-rodrigo-ramos.zip");
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
+        window.open("/my-portfolio/curriculo-2026.zip", "_self");
+    }
 
     return(
         <>
@@ -39,10 +33,12 @@ export function Hero() {
                                 </a>
                                 <img src={IconLine} />
                             </div>
+
                             <button onClick={handleClickBtnDownload} className="portfolio-btn">
                                 <Download />
                                 Download CV
                             </button>      
+
                         </div>
                     </div>
                 </div>
