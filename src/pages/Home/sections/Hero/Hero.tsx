@@ -9,7 +9,7 @@ export function Hero() {
 
     function handleClickBtnDownload() {
         const link = document.createElement("a");
-        link.href = "/curriculo.pdf";
+        link.href = "/curriculo-2026.pdf";
         link.download = "Currículo Rodrigo Ramos.pdf";
         link.click();
     }
