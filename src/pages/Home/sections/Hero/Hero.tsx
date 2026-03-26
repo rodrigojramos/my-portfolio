@@ -9,9 +9,8 @@ export function Hero() {
 
     function handleClickBtnDownload() {
     const link = document.createElement("a");
-    link.href = "/my-portfolio/curriculo-2026.pdf";
-    link.target = "_blank";
-    link.setAttribute("download", "curriculo-rodrigo-ramos.pdf");
+    link.href = "/my-portfolio/curriculo-2026.zip";
+    link.setAttribute("download", "curriculo-rodrigo-ramos.zip");
 
     document.body.appendChild(link);
     link.click();
